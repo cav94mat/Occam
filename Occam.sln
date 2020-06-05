@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.128
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Occam", "src\Occam\Occam.csproj", "{3A160F90-9B16-49B3-B624-F685FE2C33E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{DE28287E-F094-4B24-B6C5-EFA93E649786}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{2701939A-B8C9-4962-AB85-D0CA784AEE37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3BD5CACA-D2F1-4E2C-BDC7-7C80E1725B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{3FCBD012-7303-45E7-922A-3892BD8CD5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Occam.Demo", "demo\Occam.Demo\Occam.Demo.csproj", "{A229DBBF-D106-4114-8D38-6F3F08BDBE8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A160F90-9B16-49B3-B624-F685FE2C33E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A160F90-9B16-49B3-B624-F685FE2C33E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A160F90-9B16-49B3-B624-F685FE2C33E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A160F90-9B16-49B3-B624-F685FE2C33E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A229DBBF-D106-4114-8D38-6F3F08BDBE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A229DBBF-D106-4114-8D38-6F3F08BDBE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A229DBBF-D106-4114-8D38-6F3F08BDBE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A229DBBF-D106-4114-8D38-6F3F08BDBE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A160F90-9B16-49B3-B624-F685FE2C33E0} = {DE28287E-F094-4B24-B6C5-EFA93E649786}
+		{3FCBD012-7303-45E7-922A-3892BD8CD5E9} = {3BD5CACA-D2F1-4E2C-BDC7-7C80E1725B71}
+		{A229DBBF-D106-4114-8D38-6F3F08BDBE8D} = {3FCBD012-7303-45E7-922A-3892BD8CD5E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FA8BBE5-7CC1-4057-AC11-62F430963B20}
+	EndGlobalSection
+EndGlobal
